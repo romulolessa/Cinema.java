@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Cadsatro de Sessão de Cinema</title>
+	</head>
+	<body>
+		<h1>Cadsatro de Sessão de Cinema</h1>
+		
+		<form action="SalvarSessao" method="post">
+			<fieldset>
+				<legend>Dados da Sessãoo</legend>
+				
+				<p><label for="titulo">Titulo do filme:</label>
+				<input type="text" id="titulo" name="titulo"></p>
+				
+				<p><label for="data">Data da Sessão:</label>
+				<input type="date" id="data" name="data"></p>
+				
+				<p><label for="inicio">Hora de Inicio:</label>
+				<input type="time" id="inicio" name="inicio"></p>
+				
+				<p><label for="termino">Hora de Termino:</label>
+				<input type="time" id="termino" name="termino"></p>
+				
+				<p><label for="sala">Sala da Sessão:</label>
+				<input type="number" min="1" max="5" id="sala" name="sala"></p>
+			
+				<p><input type="submit" value="CadastrarSessao"></p>
+			</fieldset>		
+		</form>
+		
+	</body>
+</html>
